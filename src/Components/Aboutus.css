@@ -1,0 +1,24 @@
+/* Aboutus.css */
+
+.about-us-container {
+  max-width: 700px; /* Set a maximum width for better readability on larger screens */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding for better spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: justify;
+  background-image: url("/public/images/homepic2.jpg");
+}
+
+
+.about-us-container p {
+  color: #555; /* Set paragraph text color */
+  line-height: 1.3; /* Set line height for better readability */
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+/* Add more styles as needed for additional elements or customization */
+.about-us-container h1{
+  color:brgb(147, 114, 74);
+  text-shadow: #555;
+}

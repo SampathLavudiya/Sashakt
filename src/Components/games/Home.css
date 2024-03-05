@@ -1,0 +1,22 @@
+/* Home.css */
+
+.home {
+  background-image: url("/public/images/homepic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+}
+
+.home p, .home h1 {
+  color: #45524a; 
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,151 @@
+h2{
+  /* color: crimson; */
+  font-size: 30px;
+}
+.image{
+  background-image: url("/public/images/homepic2.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  /* position: fixed;  */
+  top: 0;
+  left: 0;
+}
+.image1{
+  background-image: url("/public/images/homepic3.jpeg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  /* position: fixed;  */
+  top: 0;
+  left: 0;
+}
+
+.edu{
+  background-image: url("/public/images/homepic2.jpg");
+  background-size: cover; /* Make sure the background image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  position: fixed; /* Fixed position to center content in the viewport */
+  top: 0;
+  left: 0;
+}
+.Education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #859a90; 
+  color: #333; /* Set text color */
+  font-size: 12px; /* Set font size */
+  /* padding: 10px;  */
+}
+
+/* Style for child elements within .Education */
+.Education p {
+  font-size: 22px;
+  margin: 5px 0; /* Add margin to paragraphs within .Education */
+}
+
+/* Add a box shadow to .Education */
+.Education {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* .Development {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 700px;
+  background-color: #b09696; 
+  color: #333; 
+  font-size: 12px; 
+  padding: 10px; 
+}
+
+.Development p {
+  font-size: 22px;
+  margin: 10px 0; 
+}
+
+
+.Development {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Protection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #b09696; 
+  color: #333; 
+  font-size: 12px; 
+  padding: 10px; 
+}
+.Protection p{
+  font-size: 22px;
+  margin: 5px 0; 
+}
+.Protection{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Survival{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #b09696; 
+  color: #333; 
+  font-size: 12px; 
+  padding: 10px; 
+}
+.Survival p{
+  font-size: 22px;
+  margin: 5px 0; 
+}
+.Survival{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Participation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #b09696; 
+  color: #333;
+  font-size: 12px; 
+  padding: 10px; 
+}
+.Participation p{
+  font-size: 22px;
+  margin: 5px 0; 
+}
+.Participation{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.centered-box{
+      text-align:center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 700px;
+      width: 90%;
+      background-color: #fff;
+  }
+  
